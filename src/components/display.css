@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+.title {
+    font-size: 2rem;
+    font-family: 'Special Elite', cursive;
+    margin-bottom: 1rem;
+}
+
+.temp {
+    font-size: 3rem;
+    font-family: 'Special Elite', cursive;
+
+}
+
+.weather {
+    font-size: 1.2rem;
+    font-family: 'Special Elite', cursive;
+}
+
+.flex {
+    display: flex;
+    /* justify-content: center; */
+    /* align-content: center; */
+    margin: none;
+}
+
+.description {
+    margin-top: 1.2rem;
+}
+
+.humidity {
+    margin: 0.5rem;
+}
+
+.windspeed {
+    margin: 0.5rem;
+}
+
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    border-radius: 24px;
+}
